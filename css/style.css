@@ -1,0 +1,82 @@
+body{
+    background-color: #87dcc6;
+    display: flex;
+    justify-content: center;
+} 
+.userCardContainer{
+ width: 300px;
+ background-color: #88f057;
+ box-sizing: border-box;
+ border-radius: 15px;
+ overflow: hidden;
+ text-align: center;
+ font-family:'Crimson+Pro&family', sans-serif;
+ 
+}
+.usercardHeader{
+    height: 150px;
+    background-image: url("./../imej/777.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    text-align: center;
+    
+}
+
+.userInfoContainer{
+
+}
+
+.userInfoContainer > *{
+margin: 0 auto;    
+}
+.foto{
+    width: 120px;
+    height: 120px;
+    background-image: url("./../imej/000.png");
+    border-radius: 50%;                                                      
+    background-color: blue;
+    overflow: hidden;
+    margin-top: -60px;
+                                                                                           
+}
+
+.userInfoContainer > h1{
+    text-align: center;
+    margin-top: 10px;
+    font-size: 40px;
+    color: #000;
+    padding: inherit;
+}
+.userInfoContainer > h3{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    color: #000;
+    padding: inherit;
+}
+.userInfoContainer > h4{
+    text-align: center;
+    margin-top: 5px;
+    font-size: 20px;
+    color: rgb(241, 36, 36);
+    padding: inherit;
+}
+.iconContainer{
+    text-align: center;
+    display: inline-block;
+    border: 1px solid gray;
+}
+
+.verticalAlign + .verticalAlign{
+    margin-left: 30px;
+}
+.iconContainer > img{
+    vertical-align: middle;
+}
+
+
+.verticalAlign{
+    display: inline-block;
+    height: 100%;
+    vertical-align: middle;
+}
